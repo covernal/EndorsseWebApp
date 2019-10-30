@@ -1,0 +1,122 @@
+.hidden {
+  display:none !important;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+}
+
+.text-custom{
+  color: #2EC866 !important;
+}
+
+.container-alt {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrapper {
+  padding-top: 114px;
+}
+
+.server-error{
+  font-size: 12px;
+  color: #f5707a;
+  line-height: 18px !important;
+  margin-top: 10px;
+}
+
+.page-title-box {
+  padding: 30px 0;
+
+  .page-title {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600;
+  }
+}
+
+.error{
+  color: @danger;
+}
+
+.loading{
+  margin: 20px 0;
+  text-align: center;
+
+  .fa{
+    font-size: 50px;
+    color: @primary;
+  }
+}
+
+button{
+  &:disabled{
+    background: #999;
+    color: #fff;
+    text-shadow: 1px 1px #ababab;
+
+    &:hover{
+      background: #999 !important;
+      color: #fff !important;
+      text-shadow: 1px 1px #ababab !important;
+    }
+  }
+}
+
+.form-horizontal.reset-password-form{
+  .form-group.account-btn.text-center.m-t-10.non-fixed-btn{
+    position: relative;
+  }
+  .text-center.m-b-20{
+    .m-b-0.font-13.text-success{
+      color: #2ec866;
+    }
+    .m-b-0.font-13.text-failure{
+      color: #d9534f;
+    }
+  }
+}
+
+.user-experience-list{
+  .fa-spin-custom{
+    font-size: 50px;
+    color: @primary;
+  }
+}
+
+.fa-spin-custom, .glyphicon-spin {
+  -webkit-animation: spin 3000ms infinite linear;
+  animation: spin 3000ms infinite linear;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,28 @@
+@import '../../../../assets/templates/less/variables.less';
+@import '../../../../assets/templates/less/elements.less';
+
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  bottom: 0px;
+  color: #58666e;
+  text-align:left !important;
+  padding: 20px 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+
+  ul {
+    li {
+      padding-left: 10px;
+      padding-right: 10px;
+
+      a{
+        color: @muted;
+
+        &:hover {
+          color: @custom;
+        }
+      }
+    }
+  }
+}

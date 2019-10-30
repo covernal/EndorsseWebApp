@@ -1,0 +1,63 @@
+{
+  "data": {
+    "common":[{
+      "name": "What is Endorsse?",
+      "url": "https://endorsse.com",
+      "icon": ""
+    },{
+      "name": "Candidate Sign Up",
+      "url": "/candiate-signup",
+      "icon": ""
+    },{
+      "name": "Mentor Sign Up",
+      "url": "/mentor-signup",
+      "icon": ""
+    },{
+      "name": "Log In",
+      "url": "/login",
+      "icon": ""
+    }],
+    "mentor": [{
+      "name": "Home",
+      "url": "https://endorsse.com",
+      "icon": "mdi mdi-home"
+    },{
+      "name": "My Profile",
+      "url": "/my-profile",
+      "icon": "mdi mdi-account"
+    },{
+      "name": "My Tasks",
+      "url": "/my-tasks",
+      "icon": "mdi mdi-note"
+    },{
+      "name": "My Challenges",
+      "url": "/mentor-challenges",
+      "icon": "mdi mdi-crown"
+    },{
+      "name": "Payment",
+      "url": "/payment",
+      "icon": "mdi mdi-cash-usd"
+    }],
+    "candidate": [{
+      "name": "Home",
+      "url": "https://endorsse.com",
+      "icon": "mdi mdi-home"
+    },{
+      "name": "My Profile",
+      "url": "/my-profile",
+      "icon": "mdi mdi-account"
+    },{
+      "name": "Browse Mentors",
+      "url": "/mentors",
+      "icon": "mdi mdi-star-circle"
+    },{
+      "name": "My Challenges",
+      "url": "/candidate-challenges",
+      "icon": "mdi mdi-crown"
+    },{
+      "name": "My Vouchers",
+      "url": "/candidate-vouchers",
+      "icon": "mdi mdi-cash-100"
+    }]
+  }
+}

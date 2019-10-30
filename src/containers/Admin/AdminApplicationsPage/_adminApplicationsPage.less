@@ -1,0 +1,19 @@
+@import '../../../assets/templates/less/variables.less';
+
+.admin-applications-page{
+  .pagination{
+    float: right;
+
+    &>.active{
+      &>a{
+        border-color: @primary;
+        background: @primary;
+
+        &:hover{
+          border-color: @primary;
+          background: @primary;
+        }
+      }
+    }
+  }
+}
